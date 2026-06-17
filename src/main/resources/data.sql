@@ -37,3 +37,5 @@ VALUES (7, 'Ethical Hacking and Network Security Essentials', 55, 'Avance', 199.
 -- الدورة 8: قواعد البيانات وتصميمها
 INSERT INTO formations (id, titre, duree, niveau, prix) 
 VALUES (8, 'SQL Database Design and Query Optimization', 25, 'Debutant', 35.00);
+
+ALTER TABLE formations ALTER COLUMN id RESTART WITH 9;
